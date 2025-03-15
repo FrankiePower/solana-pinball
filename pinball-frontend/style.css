@@ -109,3 +109,17 @@ html[ioswebview] .c3htmlwrap > * {
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
 }
+#connectButton {
+	position: fixed;  /* Keeps it on top of all content */
+	top: 55px;        /* Adjust as needed */
+	left: 50%;        /* Centers horizontally */
+	transform: translateX(-50%); /* Ensures perfect centering */
+	z-index: 9999;    /* Ensures it's above everything */
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
